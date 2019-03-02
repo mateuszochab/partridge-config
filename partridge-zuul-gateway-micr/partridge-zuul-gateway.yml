@@ -1,6 +1,6 @@
 --- 
 server: 
-  port: 8077
+  port: 8095
 spring: 
   application: 
     name: partridge-zuul-gateway
