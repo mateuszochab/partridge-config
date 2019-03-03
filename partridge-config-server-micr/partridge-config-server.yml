@@ -1,9 +1,9 @@
 --- 
 server: 
-  port: 8095
+  port: 9091
 spring: 
   application: 
-    name: partridge-zuul-gateway-prod
+    name: partridge-config-server
 eureka:
   client:
     serviceUrl:

@@ -1,0 +1,10 @@
+--- 
+server: 
+  port: 9091
+spring: 
+  application: 
+    name: partridge-config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://partridge-eureka-server.cfapps.io:8761
