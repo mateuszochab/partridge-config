@@ -3,8 +3,8 @@ server:
   port: 8095
 spring: 
   application: 
-    name: partridge-zuul-gateway-prod
+    name: partridge-zuul-gateway
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://partridge-eureka-server.cfapps.io/eureka/
