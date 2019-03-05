@@ -4,6 +4,7 @@ server:
 spring: 
   application: 
     name: partridge-register-user
+    data: "mongodb:port=27118"
 eureka:
   client:
     serviceUrl:

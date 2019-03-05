@@ -4,8 +4,8 @@ server:
 spring: 
   application: 
     name: partridge-register-user
-spring:
-    data:
-        mongodb:
-            database=usersDB
-            port=27118
+  data: "mongodb:port=27118"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://partridge-eureka-server.cfapps.io/eureka/
