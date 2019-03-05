@@ -1,11 +1,15 @@
 --- 
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: "https://partridge-eureka-server.cfapps.io/eureka/"
 server: 
   port: 9100
 spring: 
   application: 
     name: partridge-register-user
-    data: "mongodb://localhost:27017/usersDB"
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://partridge-eureka-server.cfapps.io/eureka/
+  data: 
+    mongodb: 
+      database: usersDB
+      host: localhost
+      port: 27017
