@@ -4,3 +4,8 @@ server:
 spring: 
   application: 
     name: partridge-register-user
+spring:
+    data:
+        mongodb:
+            database=usersDB
+            port=27118
