@@ -1,0 +1,15 @@
+--- 
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: "https://partridge-eureka-server.cfapps.io/eureka/"
+server: 
+  port: 9200
+spring: 
+  application: 
+    name: partridge-user-api
+  data: 
+    mongodb: 
+      database: usersDB
+      host: localhost
+      port: 27017
