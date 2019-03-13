@@ -1,0 +1,10 @@
+--- 
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: "https://partridge-eureka-server.cfapps.io/eureka/"
+server: 
+  port: 9600
+spring: 
+  application: 
+    name: partridge-weather-api
