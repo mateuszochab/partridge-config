@@ -8,14 +8,14 @@ server:
 spring: 
   application: 
     name: partridge-weather-api
-  cache:
-    cache-names: places, placesList
-    caffeine:
-      spec:
-        maximumSize: 100
+  cache: 
+    cache-names: "places, placesList"
+    caffeine: 
+      spec: 
         expireAfterAccess: 10s
-weather:
-    APPID: "4d1dea7b144f09ca558a4702672d2eee"
-    BASEURL: "https://api.openweathermap.org/data/"
-    VERSION: "2.5/"
-    UNITS: "metric"
+        maximumSize: 100
+weather: 
+  APPID: 4d1dea7b144f09ca558a4702672d2eee
+  BASEURL: "https://api.openweathermap.org/data/"
+  UNITS: metric
+  VERSION: 2.5/
