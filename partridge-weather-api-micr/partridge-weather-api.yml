@@ -8,3 +8,8 @@ server:
 spring: 
   application: 
     name: partridge-weather-api
+
+weather:
+    APPID: "4d1dea7b144f09ca558a4702672d2eee"
+    BASEURL: "https://api.openweathermap.org/data/"
+    VERSION: "2.5"
