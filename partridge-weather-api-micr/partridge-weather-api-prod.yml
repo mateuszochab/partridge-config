@@ -9,11 +9,11 @@ spring:
   application: 
     name: partridge-weather-api
   cache:
-    cache-names: places
+    cache-names: places,placesList
     caffeine:
       spec:
         maximumSize: 100
-        expireAfterAccess: 1800s
+        expireAfterAccess: 10s
 weather:
     APPID: "4d1dea7b144f09ca558a4702672d2eee"
     BASEURL: "https://api.openweathermap.org/data/"
