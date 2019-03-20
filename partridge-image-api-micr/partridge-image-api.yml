@@ -10,6 +10,6 @@ spring:
     name: partridge-image-api
   servlet:
     multipart:
-      enabled: true
+      enabled: false
       max-file-size: 100MB
       max-request-size: 100MB
