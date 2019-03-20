@@ -1,0 +1,10 @@
+--- 
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: "https://partridge-eureka-server.cfapps.io/eureka/"
+server: 
+  port: 9800
+spring: 
+  application: 
+    name: partridge-image-api
