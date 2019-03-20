@@ -8,7 +8,7 @@ server:
 spring: 
   application: 
     name: partridge-image-api
-  servlet:
+  http:
     multipart:
       enabled: false
       max-file-size: 100MB
